@@ -26,9 +26,8 @@ This will create sensors named `senson.pollenniva_CITY_ALLERGEN_day[0-3]` and th
 Example configuration
 
 ```
-sensor:
+sensor: # Tracks 
   - platform: pollenniva
-    scan_interval: 4 (default, optional)
     state_as_string: false (default, optional, show states as strings as per STATES above)
     sensors:
       - city: Stockholm
@@ -39,11 +38,22 @@ sensor:
       - city: Östersund
         allergens:
           - Hassel
+
+sensor:
+  - platform: pollenniva
+    sensors:
+      - city: Stockholm
+        days_to_track: 3
+        allergens:
+          - Al
+          - Alm
+          - Ambrosia
+          - Björk
+          - Bok
+          - Ek
+          - Gräs
+          - Gråbo
+          - Hassel
+          - Sälg / vide
 ```
 
-
-
-Custom card for Lovelace can be found here:
-https://github.com/isabellaalstrom/pollenkoll-card
-
-<img src="https://github.com/isabellaalstrom/pollenkoll-card/blob/master/pollenkoll-card.png" alt="Pollenkoll Lovelace Card" />
