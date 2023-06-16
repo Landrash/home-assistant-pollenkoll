@@ -1,6 +1,6 @@
 {
-  "domain": "brandriskute",
-  "name": "Brandrisk ute",
+  "domain": "pollenniva",
+  "name": "pollenniva",
   "documentation": "https://github.com/Landrash/home-assistant-pollenkoll",
   "dependencies": [],
   "codeowners": ["@Landrash"],
