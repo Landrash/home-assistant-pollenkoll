@@ -1,0 +1,11 @@
+{
+  "domain": "brandriskute",
+  "name": "Brandrisk ute",
+  "documentation": "https://github.com/Landrash/home-assistant-pollenkoll",
+  "dependencies": [],
+  "codeowners": ["@Landrash"],
+  "issue_tracker": "https://github.com/Landrash/home-assistant-pollenkoll/issues",
+  "version": "v2023.6.0",
+  "requirements": [],
+  "iot_class": "cloud_polling"
+}
